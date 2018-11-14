@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation Starter Template</title>
+    <link rel="stylesheet" href="styles/foundation.css" />
+</head>
+
+<body>
+    <header>
+        <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+            <button class="menu-icon" type="button" data-toggle></button>
+            <div class="title-bar-title">Menu</div>
+        </div>
+
+        <div class="top-bar" id="example-menu">
+            <div class="top-bar-left">
+                <ul class="dropdown menu" data-dropdown-menu>
+                    <li class="menu-text">CC</li>
+                    <li class="has-submenu">
+                        <a href="#0">Artworks</a>
+                        <ul class="submenu menu vertical" data-submenu>
+                            <li><a href="artwork1.html">One</a></li>
+                            <li><a href="artwork2.html">Two</a></li>
+                            <li><a href="artwork3.html">Three</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+           <h3>Welcome to the photo website of</h3>
+           <h3>a birth gift for</h3>
+           <h1>CC.</h1>
+        </div>
+    </header>
+    <article>
+        <img data-interchange="[images/index_small.jpg, small], [images/index_medium.jpg, medium], [images/index_big.jpg, large]">
+    </article>
+    <footer>
+        <div>
+            <img src="images/sinaLOGO_32x32.png" alt="link to cc">
+            <p>© 2018 By medusa.</p>
+        </div>
+    </footer>
+    
+    <script src="scripts/vendor/jquery.js"></script>
+    <script src="scripts/vendor/what-input.js"></script>
+    <script src="scripts/vendor/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+
+    </script>
+
+</body>
+
+</html>
