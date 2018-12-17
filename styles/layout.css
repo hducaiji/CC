@@ -1,0 +1,78 @@
+section,
+header,
+nav {
+    display: block;
+}
+
+/*
+.top-bar {
+    position:fixed;
+    width: 100%;
+}
+*/
+
+#top-cc {
+    position: fixed;
+    top: 27px;
+    /*
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+*/
+    left: 45%;
+    z-index: 99;
+}
+
+article {
+    padding-top: 73px;
+    padding-bottom: 22px;
+}
+
+#foot-cc {
+    width: 400px;  
+    text-align: center;
+}
+
+.top-bar .top-bar-left .menu .top-inline-li {
+    margin-left: 90px;
+}
+
+.top-bar .top-bar-left .menu a {
+    display: block;
+}
+
+.top-welcome div {
+    position: absolute;
+    right: 0;
+    line-height: 1em;
+}
+
+#welcome2 {
+    top: 33px;
+}
+
+.top-welcome {
+    position: fixed;
+    width: 44%;
+    padding-top: 8px;
+/*    border: 1px solid red;*/
+}
+
+.card {
+    margin: 0;
+}
+
+.article-container {
+/*    border: 1px solid red;*/
+    width: 1200px;
+}
+
+.article-h {
+    margin-left: 120px;
+}
+
+.cell-container {
+    width: 300px;
+    float: left;
+    margin: 37.5px 37.5px;
+}

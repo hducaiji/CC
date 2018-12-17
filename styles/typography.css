@@ -1,0 +1,23 @@
+#top-cc a {
+    font-size: 76px;
+    font-weight: bold;
+    text-shadow: grey 0.02em 0.01em 0.04em;
+}
+
+.top-bar .top-bar-left .menu .top-inline-li {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-bar .top-bar-left .menu .top-inline-li ul {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.top-welcome div {
+    font-size: 17px;
+}
+
+.artwork-description {
+    font-size: 16px;
+}

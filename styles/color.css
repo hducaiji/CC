@@ -1,0 +1,28 @@
+#top-cc a{
+    color: #CF2525;
+}
+.top-bar {
+    background-color: white;
+}
+.top-bar .top-bar-left .menu {
+    background-color: white;
+}
+
+.top-bar .top-bar-left .menu a {
+    color: #333;
+}
+
+#foot-cc p{
+    color: #CF2525;    
+}
+
+.top-bar .top-bar-left .menu a.here:link,
+.top-bar .top-bar-left .menu a.here:visited,
+.top-bar .top-bar-left .menu a.here:hover,
+.top-bar .top-bar-left .menu a.here:active {
+    color: #CF2525;
+}
+
+.top-welcome {
+    color: #CF2525;
+}
